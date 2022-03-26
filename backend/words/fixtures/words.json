@@ -1,0 +1,112 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$lOrdXyMxD7br059q3UGDnx$IVy6l8h7fp67D2slmw3EAyWc8yDoSy/niKzeAWTagU0=",
+            "last_login": "2022-03-26T06:28:31.578Z",
+            "is_superuser": true,
+            "username": "saivineeth",
+            "first_name": "",
+            "last_name": "",
+            "email": "contact@saivineeth.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-03-26T05:28:06.043Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$lOrdXyMxD7br059q3UGDnx$IVy6l8h7fp67D2slmw3EAyWc8yDoSy/niKzeAWTagU0=",
+            "last_login": "2022-03-26T06:28:31.578Z",
+            "is_superuser": false,
+            "username": "testuser1",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-03-26T05:28:06.043Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$lOrdXyMxD7br059q3UGDnx$IVy6l8h7fp67D2slmw3EAyWc8yDoSy/niKzeAWTagU0=",
+            "last_login": "2022-03-26T06:28:31.578Z",
+            "is_superuser": false,
+            "username": "testuser2",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-03-26T05:28:06.043Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "words.word",
+        "pk": 1,
+        "fields": {
+            "word": "test",
+            "author": 1
+        }
+    },
+    {
+        "model": "words.word",
+        "pk": 2,
+        "fields": {
+            "word": "excitement ",
+            "author": 1
+        }
+    },
+    {
+        "model": "words.word",
+        "pk": 3,
+        "fields": {
+            "word": "printable ",
+            "author": 1
+        }
+    },
+    {
+        "model": "words.word",
+        "pk": 4,
+        "fields": {
+            "word": "yards ",
+            "author": 1
+        }
+    },
+    {
+        "model": "words.word",
+        "pk": 5,
+        "fields": {
+            "word": "long",
+            "author": 1
+        }
+    },
+    {
+        "model": "words.word",
+        "pk": 6,
+        "fields": {
+            "word": "practitioners",
+            "author": 2
+        }
+    },
+    {
+        "model": "words.word",
+        "pk": 7,
+        "fields": {
+            "word": "sufficiently",
+            "author": 2
+        }
+    }
+]
