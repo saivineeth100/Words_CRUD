@@ -54,6 +54,24 @@
         }
     },
     {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$lOrdXyMxD7br059q3UGDnx$IVy6l8h7fp67D2slmw3EAyWc8yDoSy/niKzeAWTagU0=",
+            "last_login": "2022-03-26T06:28:31.578Z",
+            "is_superuser": false,
+            "username": "testuser2",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-03-26T05:28:06.043Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
         "model": "words.word",
         "pk": 1,
         "fields": {
@@ -107,6 +125,38 @@
         "fields": {
             "word": "sufficiently",
             "author": 2
+        }
+    },
+    {
+        "model": "words.word",
+        "pk": 8,
+        "fields": {
+            "word": "excitement sdgr",
+            "author": 3
+        }
+    },
+    {
+        "model": "words.word",
+        "pk": 9,
+        "fields": {
+            "word": "sfae exc itement ",
+            "author": 1
+        }
+    },
+    {
+        "model": "words.word",
+        "pk": 10,
+        "fields": {
+            "word": " exc sadfsgr itement ",
+            "author": 1
+        }
+    },
+    {
+        "model": "words.word",
+        "pk": 11,
+        "fields": {
+            "word": "sfae sdsr itement ",
+            "author": 1
         }
     }
 ]

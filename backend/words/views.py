@@ -29,4 +29,4 @@ class WordsListView(GenericAPIView,ListModelMixin):
 
 
 class FrontEndView(TemplateView):
-    template_name = "index.html"
+    template_name = "words/index.html"

@@ -12,4 +12,4 @@ class WordsTests(TestSetup):
         content = json.loads(data.content)
         count = content.get("count")
         self.assertNotEqual(data,None)
-        self.assertEqual(count,7)
+        self.assertEqual(count,11)
